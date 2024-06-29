@@ -48,7 +48,6 @@ body {
 
   .menu {
     background-color: #F1EFE2;
-    position: relative;
     display: flex;
     align-items: center;
     width: 100%;
@@ -314,10 +313,6 @@ body {
       display: flex;
       flex-wrap: nowrap;
       justify-content: center;
-    }
-    .header-contact{
-      margin-top: 10px;
-      text-align: center;
     }
   
     .menu-nav li {
