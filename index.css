@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.button{
+    width: 145px;
+    height: 50px;
+    border-radius: 25px;
+    border-style:solid;
+    background-color: #ffd457;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #ffff;
+}
+.fixedbut img{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px; 
+    z-index: 5;
+} 
+.fixedbut:hover{
+    cursor: pointer;
+} 
+/*_________________________ H E A D _________________________*/
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #361d08;
+    width: 100vw;
+    height: 65px;
+    margin: 0;
+}
+.logo-contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 5px ;
+}
+#logo1{
+    width: 115px;
+    padding-right: 15px;
+    opacity: 0.5;
+}
+#logo1:hover, #logo2:hover {
+    opacity: 1;
+}
+#logo2{
+    padding-left: 20px;
+    width: 120px;
+    height: 23.22px;
+    border-left:thin solid #ffff;
+    opacity: 0.5;
+}
+.contact{
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 100px;
+    text-decoration: none;
+}
+.contact:hover{
+    text-decoration: underline;
+    color: #ffff;
+}
+/*_________________________ H E A D _________________________*/
+
+
+/*_________________________ N A V I _________________________*/
+#navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1efe2;
+    width: 100vw;
+    height: 130px;
+    margin: 0;
+}
+#logo3{
+    width: 155px;
+    margin-left: 60px;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0px 0px 0px 16px
+  }
+
+.nav a {
+    text-decoration: none;
+    color: #361D08;
+    font-family: sans-serif;
+}
+.nav li {
+    padding: 16px 24px;
+    text-decoration:none;
+    font-size:20px;
+}
+.search{
+    padding-left: 20px;
+    margin-right: 60px;
+}
+.searchbox{
+    width: 248px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: transparent;
+}
+#seicon{
+    margin-right: 60px;
+}
+/*_________________________ N A V I _________________________*/
+
+
+/*_________________________ B L O 1 _________________________*/
+#block1{
+    width: 100vw;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+#bgi1{
+    position: relative;
+    width:100%;
+    height: auto;
+    z-index: 0;
+}
+#texbox1{
+    position: absolute;
+    width: 580px;
+    height: 290px;
+    margin-left: 130px;
+    background-color: #361d08;
+    opacity: 0.8;
+    color: #ffff;
+    z-index: 1;
+}
+#text{
+    width: 580px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    position: absolute;
+    row-gap: 30px;
+    margin-left: 130px;
+    padding: 35px;
+    z-index: 2;
+}
+#text h1{
+    font-size: 56px;
+}
+#text h4{
+    font-size: 24px;
+}
+#more-button{
+    font-size: 18px;
+}
+/*_________________________ B L O 1 _________________________*/
+
+
+/*_________________________ B L O 2 _________________________*/
+#block2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #75754D;
+    width: 100vw;
+    height: 550px;
+}
+#bgi2{
+    width: 670px;
+    height: 300px;
+    float:left;
+}
+#texbox2{
+    width: 672px;
+    height: 491px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    color: #ffff;
+}
+#texbox2 h2{
+    font-size: 40px;
+}
+#texbox2 h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+/*_________________________ B L O 2 _________________________*/
+
+/*_________________________ B L O 3 _________________________*/
+#block3{
+    width: 100vw;
+    height: 737px;
+    background-color: #F1EFE2 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#block3 h2{
+    color: #361D08;
+    font-size: 40px;
+}
+.food-list{
+    padding-top: 50px;
+}
+.food-list ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+    gap:10px;
+    color: #4E3629;
+    font-family: sans-serif;
+}
+.food {
+    text-align: center;
+    background-color: #e6dec7;
+    height: 270px;
+}
+.food:hover{
+    background-color: #dbd4ab;
+    cursor: pointer;
+    color: #000000;
+}
+.food p{
+    padding-top: 30px;
+}
+.food img {
+    width: 240px;
+    height: 172px;
+}
+/*_________________________ B L O 3 _________________________*/
+
+
+/*_________________________ B L O 4 _________________________*/
+#block4{
+    width: 100vw;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #361D08;
+}
+.title h2{
+    font-size: 40px;
+}
+.title p{
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.five-star-promise ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.promise-item {
+    text-align: center;
+}
+.promise-item img {
+    width: 295px;
+    height: 295px;
+}
+#five-button{
+    margin-top: 10px;
+    width: 400px;
+}
+/*_________________________ B L O 4 _________________________*/
+
+
+/*_________________________ B L O 5 _________________________*/
+#block5{
+    width: 100vw;
+    height:520px;
+    display: flex;
+    align-items: center;
+}
+#bgi3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+#texbox3{
+    position: absolute ;
+    width: 580px;
+    height: 290px;
+    margin-left: 130px;
+    background-color: #361d08;
+    opacity: 0.8;
+    z-index: 1;
+}
+#text3{
+    width: 580px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: #ffff;
+    position: absolute;
+    margin-left: 130px;
+    padding: 35px;
+    z-index: 2;
+}
+#text3 h2{
+    font-size: 40px;
+}
+#text3 p{
+    font-size: 24px;
+}
+#findfood{
+    font-size: 18px;
+    width: 200px;
+}
+/*_________________________ F O O T _________________________*/
+.footer {
+    background: #361D08;
+    width: 100vw;
+    height: 655px;
+    color: #ffff;
+}
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 2em;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px 0;
+    width: 256px;
+    height:300px;
+}
+.footer-logo h2 {
+    font-size: 39px;
+    text-align: center;
+    padding: 32px 0;
+}
+#signbutton{
+    font-size: 20px;
+    width: 235px;
+}
+#signbutton:hover{
+    scale: 120%;
+}
+.footer-about {
+    margin:50px 0;
+    font-family: sans-serif;
+}
+.footer-about a {
+    text-decoration: none;
+    font-size:16px;
+    color: #FFFFFF;
+}
+.footer-about ul {
+    list-style: none;
+}
+.footer-about a:hover {
+    text-decoration: underline;
+}
+.footer-helpful {
+    margin:50px 0;
+    font-family: sans-serif;
+}
+.footer-helpful a {
+    text-decoration: none;
+    font-size:16px;
+    color: #FFFFFF;
+}
+.footer-helpful ul {
+    list-style: none;
+}
+.footer-helpful a:hover {
+    text-decoration: underline;
+}
+.footer-social {
+    margin:50px 0;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.footer-legal ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    border-top: 1px solid #ffff;
+    font-size: 18px;
+}
+.footer-legal a {
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #FFFFFF
+}
+.footer-legal a:hover {
+    text-decoration: underline;
+}
+.footer-end {
+    text-align: center;
+    padding: 15px 0 100px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #ffff;
+}
+/*_________________________ F O O T _________________________*/
+

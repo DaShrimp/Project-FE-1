@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 50px;
+}
+.line{
+    width: 2px;
+    height: 40px;
+    background-color: white;
+    margin: 10px 10px;
+}
+.logobar{
+    background-color: #371D08;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+  
+}
+.linkcontact{
+    color: white;
+    margin: 50px;
+}
+.logo div img{
+    height: 60px;  
+    object-fit: cover;
+    transition: filter 0.3s;
+}
+img:hover{
+    filter: brightness(1.2);
+
+}
+.toolbar{
+   background-color: #F1EFE2;
+   display: flex;
+   width: 100%;
+   height: 150px;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+.logotool img{
+    height: 100px;
+    width: auto;
+    margin-left: 50px;
+}
+.tool{
+   display: flex;
+   background-color: #F1EFE2;
+   padding: 30px;
+   width: 1000px;
+   gap: 50px;
+  
+}
+.toolbar-item{
+    width: 10%;
+    height: 100%;
+    position: relative;
+    margin-right: 20px;
+    cursor:point;
+    font-size: 22px;
+
+}
+.h{
+    color: #361D08;
+    text-decoration: none;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #361D08;
+    padding: 10px;
+    margin-top: 5px;
+    z-index: 1;
+    border-radius: 1em;
+}
+.toolbar-item:hover .dropdown-content{
+    display: block;
+}
+.linktobuy{
+    color: #361D08;
+    text-decoration: none;
+    font-size: 22px;
+}
+.research{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 2em;
+    padding: 10px 20px;
+    width: 250px;
+    height: 30px;
+}
+.research input[type="text"]:focus + .research{
+    border: 1px solid #000;
+}
+.research input[type="text"]{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 2em;
+}
+.research button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 2em;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.research button:hover{
+    border: 2px solid blue;
+}
+.path{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: #361D08;
+}
+.pathconne{
+    margin-left: 50px;
+}
+.imgdog img{
+    width: 100%;
+    height: auto;
+}
+.introduction{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.child{
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.introduction .container-contact{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    gap: 20px;
+}
+.container-h1{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #361D08;
+}
+.pathconne{
+    color: #361D08;
+}
+.container{
+    text-align: center;
+    color: #361D08;
+    
+}
+.Email a{
+    color: #361D08;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.container p{
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height: 650px;
+    background-color: #371D08;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.footer .subfooter button{
+    height: 60px;
+    width: 240px;
+    border-radius: 1em;
+    background-color: #FFD358;
+    font-size: 1.25rem;
+}
+.footer a {
+    color: white;
+}
+.footer h2{
+    color: white;
+}
+.footer i{
+    color: white;
+}
+.subfooter{
+    display: block;
+    margin: 80px;
+    line-height: 35px;
+}
+.Dad {
+    width: 100%;
+    height: 65%;
+    display: flex;
+
+}
+#sf1{
+    text-align: center;
+    line-height: 50px;
+}
+.Mom {
+    display: flex;
+    width: 90%;
+    height: 35%;
+    border-top: 2px solid white;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.j1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 18%;
+    align-items: center;
+}
+.j1 a{
+    color: white;
+    text-decoration: none;
+}
+.j2{
+    width: 80%;
+    height: 20%;
+    margin: -90px;
+    font-size: 20px;
+    color: white;
+}
+.parent_link_to > a:hover{text-decoration: underline;
+}
+.a_vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
