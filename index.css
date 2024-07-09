@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
 }
 .button{
     width: 145px;
@@ -124,6 +124,10 @@ body{
 }
 #seicon{
     margin-right: 60px;
+    float: right;
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
 }
 /*_________________________ N A V I _________________________*/
 
@@ -137,7 +141,7 @@ body{
 }
 #bgi1{
     position: relative;
-    width:100%;
+    max-width:100%;
     height: auto;
     z-index: 0;
 }
@@ -279,7 +283,7 @@ body{
 .five-star-promise ul {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 100vw;
     margin-bottom: 20px;
     gap: 20px;
 }
