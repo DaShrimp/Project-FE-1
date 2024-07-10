@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
 }
 .button{
     width: 145px;
@@ -141,7 +141,7 @@ body{
 }
 #bgi1{
     position: relative;
-    max-width:100%;
+    width:100vw;
     height: auto;
     z-index: 0;
 }
@@ -231,7 +231,8 @@ body{
 .food-list ul {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     gap:10px;
     color: #4E3629;
@@ -260,11 +261,12 @@ body{
 /*_________________________ B L O 4 _________________________*/
 #block4{
     width: 100vw;
-    height: 840px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 .title{
     display: flex;
@@ -283,7 +285,8 @@ body{
 .five-star-promise ul {
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     gap: 20px;
 }
