@@ -15,8 +15,7 @@
         width: 100vw;
         height: auto;
     }
-    /*_________________________ H E A D _________________________*/
-    
+    /*_________________________ H E A D _________________________*/ 
     .head{
         display: none;
     }
@@ -64,39 +63,28 @@
     /*_________________________ N A V I _________________________*/
     
     /*_________________________ B L O 1 _________________________*/
-    
     #block1{
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         width: 100vw;
         height: auto;
-        z-index: unset;
-    }
-    #texbox1{
-        width: 100vw;
-        height: auto;
-        position: absolute;
-        background-color: #361d08;
-        z-index: 1;
     }
     #text{
+        width: 100vw;
+        height: auto;
         display: flex;
-        flex-direction: column;
-        color: #361D08;
-        position: absolute;
-        row-gap: 30px;
-        margin-left: 130px;
-        padding: 35px;
-        z-index: 2;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+        background-color: #ffff;
     }
     /*_________________________ B L O 1 _________________________*/
     
     /*_________________________ B L O 2 _________________________*/
     #bgi2{
-        width: 80vw;
-        height: auto;
+        width: 300px;
+        height: 200px;
     }
     #block2{
         display: flex;
@@ -614,7 +602,6 @@ margin-bottom: 20px;
     .food {
     text-align: center;
     background-color: #e6dec7;
-    
     }
     .food:hover{
     background-color: #dbd4ab;
