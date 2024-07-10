@@ -615,7 +615,6 @@ margin-bottom: 20px;
     width: 100vw;
     height: auto;
     }
-    
     .five-star-promise ul {
     display: flex;
     align-items: center;
@@ -628,36 +627,29 @@ margin-bottom: 20px;
     /*_________________________ B L O 5 _________________________*/
     #block5{
         width: 100vw;
-        height:520px;
-        display: flex;
+        height:auto;
+        display: block;
         align-items: center;
+        justify-content: center;
     }
     #bgi3{
-        position: relative;
         width: 100%;
         height: auto;
-        z-index: 0;
     }
     #texbox3{
-        position: absolute ;
-        width: 580px;
-        height: 290px;
-        margin-left: 130px;
+        width: 100vw;
+        height: auto;
         background-color: #361d08;
-        opacity: 0.8;
-        z-index: 1;
     }
     #text3{
-        width: 580px;
-        height: 290px;
+        width: 100vw;
+        height: 600px;
         display: flex;
         flex-direction: column;
         row-gap: 20px;
         color: #ffff;
-        position: absolute;
         margin-left: 130px;
         padding: 35px;
-        z-index: 2;
     }
     #text3 h2{
         font-size: 40px;
@@ -667,7 +659,7 @@ margin-bottom: 20px;
     }
     #findfood{
         font-size: 20px;
-        width: 50vw;
+        width: 40vw;
     }
     /*_________________________ F O O T _________________________*/
     .footer{
