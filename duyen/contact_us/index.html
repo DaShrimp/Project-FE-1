@@ -6,69 +6,87 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <div class="container-body">
-        <div class="logobar">
-    
-            <div class="logo">
+        <header>
+
+            <div class="logobar">
+                <div class="logo">
                 <div>
-                    <img src="../assets/logo-merrick-main_0 (1).svg" alt="">
+                    <img src="../assets/logo-merrick-main_0 (1).svg" alt="" />
                 </div>
                 <div class="line"></div>
                 <div>
-                    <img src="../assets/whole-earth-farms-logo.png" alt="">
+                    <img src="../assets/whole-earth-farms-logo.png" alt="" />
+                </div>
+                </div>
+                <div>
+                <a class="linkcontact" href="../contact_us/index.html">CONTACT US</a>
                 </div>
             </div>
-            <div>
-                <a class="linkcontact" href="">CONTACT US</a>
-            </div>
-        </div>
-        <div class="toolbar">
+            <!-- RESPONSIVE -->
+            <div class="toolbar">
             <div class="logotool">
-                <img src="../assets/logo-merrick-main_0 (1).svg" alt="">
+                <img src="../assets/logo-merrick-main_0 (1).svg" alt="" />
             </div>
+            <button class="button_toggle_menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <!-- End responsive -->
             <div class="tool">
-                <a class='h' href="../../phuc/page4.html">
-                    <div class="toolbar-item">
-                    Dog
-                    <div class="dropdown-content">
-                        LEARN
-                    </div>
+              <div class="toolbar-item">
+                <a href="/phuc/page3.html">Dog</a>
+                <div class="dropdown-content">LEARN</div>
+              </div>
+              <div class="toolbar-item">
+                <a href="/phuc/page3.html">Cat</a>
+                <div class="dropdown-content">LEARN</div>
+              </div>
+                <div class="toolbar-item">
+                About
+                <div class="dropdown-content">ABOUT</div>
                 </div>
-                </a>
-                <a class="h" href="../../phuc/page4.html">
-                    <div class="toolbar-item">
-                        Cat
-                        <div class="dropdown-content">
-                            LEARN
-                        </div>
-                    </div>
-                </a>
+                <div class="toolbar-item">
+                Support
+                <div class="dropdown-content">SUPPORT</div>
+                </div>
+                <div>
+                <a class="linktobuy" href="/duyen/where_to_buy/index.html">Where to Buy</a>
+                </div>
+            </div>
+            <div class="break"></div>
+            <div class="research">
+                <input placeholder="search" type="text" />
+                <button type="button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            </div>
+            <!-- Menu dropdown -->
+            <div class="menu_drop_down off">
+                <div class="toolbar-item">
+                    Dog
+                </div>
+                <div class="toolbar-item">
+                    Cat
+                </div>
                 <div class="toolbar-item">
                     About
-                    <div class="dropdown-content">
-                        ABOUT
-                    </div>
                 </div>
                 <div class="toolbar-item">
                     Support
-                    <div class="dropdown-content">
-                        SUPPORT  
-                    </div>
                 </div>
-                <div>
-                    <a class="linktobuy" href="../where_to_buy/index.html">Where to Buy</a>
+                <div class="toolbar-item">
+                    <a class="linktobuy" href="">Where to Buy</a>
                 </div>
             </div>
-            <div class="research">
-                <input placeholder ="search" type="text">
-                <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
-        </div>
+            <!-- End menu_dropdown -->
+        </header>
         <div class="path">
-            <a class="pathconne" href="../../index.html">Home</a>
-            <h3 style="color: #361D08;">/We'd Love To Hear From You!</h3>
+            <a class="pathconne" href="">Home</a>
+            <h3 style="color: #361d08">/Where To Buy</h3>
         </div>
         <div class="imgdog">
             <img src="../assets/dog.avif" alt="">
@@ -105,48 +123,69 @@
         </div>
         <div class="footer">
             <div class="Dad">
-                <div id="sf1" class="subfooter">
-                    <img style="width: 175px;" src="../assets/logo-merrick-main_0 (1).svg" alt="">
-                    <h2 style="color:white; font-size: 30px;" >JOIN THE <br>PACK</h2>
-                    <button style="color: #361D08;">Newsletter Sign UP</button>
-                </div>
-                <div class="subfooter a_vertical">
-                    <h2>ABOUT</h2>
-                    <a>About Merrick</a>
-                    <a href="">Contact Us</a>
-                    <a>FAQs</a>
-                    <a>Careers</a>
-                </div>
-                <div class="subfooter a_vertical">
-                    <h2 >HELPFUL LINKS</h2>
-                    <a>Explore Dog Food Recipes</a>
-                    <a>Explore Cat Food Recipes</a>
-                    <a>Where to Buy</a>
-                    <a>Sitemap</a>
-                </div>
-                <div class="subfooter">
-                    <p style="color: white;">VISIT US ON SOCIAL</p>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                </div>
+              <div id="sf1" class="subfooter">
+                <img
+                  style="width: 175px"
+                  src="../assets/logo-merrick-main_0 (1).svg"
+                  alt=""
+                />
+                <h2 style="color: white; font-size: 30px">JOIN THE <br />PACK</h2>
+                <button style="color: #361d08">Newsletter Sign UP</button>
+              </div>
+              <div class="subfooter a_vertical">
+                <h2>ABOUT</h2>
+                <a>About Merrick</a>
+                <a href="">Contact Us</a>
+                <a>FAQs</a>
+                <a>Careers</a>
+              </div>
+              <div class="subfooter a_vertical">
+                <h2>HELPFUL LINKS</h2>
+                <a>Explore Dog Food Recipes</a>
+                <a>Explore Cat Food Recipes</a>
+                <a>Where to Buy</a>
+                <a>Sitemap</a>
+              </div>
+              <div class="subfooter">
+                <p style="color: white">VISIT US ON SOCIAL</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
             </div>
+            <div class="vertical-line"></div>
             <div class="Mom">
-                <div class="j1 parent_link_to">
-                    <a href="https://www.merrickpetcare.com/terms-and-conditions">TERMS & CONDITIONS</a>
-                    <a href="https://www.merrickpetcare.com/privacy-policy#notice-at-collection">NOTICE AT COLLECTION</a>
-                    <a href="https://www.merrickpetcare.com/privacy-policy">PRIVACY POLICY</a>
-                    <a href="https://www.merrickpetcare.com/accessibility">ACCESSIBILITY</a>
-                    <a href="https://www.merrickpetcare.com/cookie-policy">COOKIE POLICY</a>
-                    <a href="">YOUR PRIVACY CHOICES</a>
-                </div>
-                <div class="j2">
-                    <p>All Merrick trademarks owned by Société des Produits Nestlé S.A., Vevey, Switzerland or are used with permission.</p>
-                </div>
-
+              <div class="j1 parent_link_to">
+                <a href="https://www.merrickpetcare.com/terms-and-conditions"
+                  >TERMS & CONDITIONS</a
+                >
+                <a
+                  href="https://www.merrickpetcare.com/privacy-policy#notice-at-collection"
+                  >NOTICE AT COLLECTION</a
+                >
+                <a href="https://www.merrickpetcare.com/privacy-policy"
+                  >PRIVACY POLICY</a
+                >
+                <a href="https://www.merrickpetcare.com/accessibility"
+                  >ACCESSIBILITY</a
+                >
+                <a href="https://www.merrickpetcare.com/cookie-policy"
+                  >COOKIE POLICY</a
+                >
+                <a href="">YOUR PRIVACY CHOICES</a>
+              </div>
+              <div class="j2">
+                <p>
+                  All Merrick trademarks owned by Société des Produits Nestlé S.A.,
+                  Vevey, Switzerland or are used with permission.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+    
+    
+        <script src="main.js" type="module"></script>
 </body>
 </html>
