@@ -226,7 +226,6 @@ body{
     width: 100%;
     height: 65%;
     display: flex;
-
 }
 #sf1{
     text-align: center;
@@ -234,32 +233,32 @@ body{
 }
 .Mom {
     display: flex;
-    width: 90%;
-    height: 35%;
-    border-top: 2px solid white;
+    flex-direction: column;
+    width: calc(90% - 80px);
+    margin: 80px;
     justify-content: center;
-    flex-wrap: wrap;
-    
 }
-.j1{
+.j1 {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    height: 18%;
-    align-items: center;
 }
 .j1 a{
     color: white;
     text-decoration: none;
+    margin: 10px 0;
 }
 .j2{
-    width: 80%;
-    height: 20%;
-    margin: -90px;
     font-size: 20px;
     color: white;
 }
+
 .parent_link_to > a:hover{text-decoration: underline;
+}
+
+.vertical-line {
+    width: 100%;
+    margin: 0 80px;
+    border-bottom: 1px solid white;
 }
 .a_vertical{
     display: flex;
@@ -348,7 +347,6 @@ body{
 
 }
 .sub_body .search{
-    width: 30%;
     height: 70%;
     display: flex;
     background-color: white;
