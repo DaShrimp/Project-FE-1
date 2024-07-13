@@ -101,7 +101,69 @@ body{
     display: flex;
     margin: 0px 0px 0px 16px
   }
+.dropmenu{
+    position: relative;
+}
+.dropmenu * {
+    box-sizing: border-box;
+}
+.select{
+    text-decoration: none;
+    color: #361D08;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    cursor: pointer;
+}
+.select:hover{
+    cursor: pointer;
+}
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid transparent;
+    transition: 0.3s;
+}
+.caret-rotate{
+    transform: rotate(180deg);
 
+}
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #e6dec7;
+    border:1px #361d08 solid;
+    box-shadow:  0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    color: #361d08;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transform: 0.2;
+    z-index: 1;
+}
+.select-clicked{
+    border: 2px #361d08 solid;
+    box-shadow: 0 0 0.8em #361D08;
+}
+.menu li{
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.menu-open{
+    display: block;
+    opacity: 1;
+}
 .nav a {
     text-decoration: none;
     color: #361D08;
