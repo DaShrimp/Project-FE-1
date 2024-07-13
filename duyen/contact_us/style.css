@@ -29,6 +29,10 @@
 
   
 }
+.toolbar-item a{
+    text-decoration-line: none;
+    color: #000;
+}
 .linkcontact{
     color: white;
     margin: 50px;
