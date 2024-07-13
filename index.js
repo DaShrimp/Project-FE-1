@@ -12,13 +12,4 @@ dropmenus.forEach(dropmenu => {
         caret.classList.toggle('caret-rotate');
         menu.classList.toggle('menu-open');
     });
-
-    options.forEach(option => {
-        option.addEventListener('click', () => {
-            selected.innerText = option.querySelector('a').innerText;
-            select.classList.remove('select-clicked');
-            caret.classList.remove('caret-rotate');
-            menu.classList.remove('menu-open');
-        });
-    });
 });
