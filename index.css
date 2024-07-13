@@ -90,7 +90,6 @@ body{
     background-color: #f1efe2;
     width: 100vw;
     height: 130px;
-    margin: 0;
 }
 #logo3{
     width: 155px;
@@ -99,8 +98,8 @@ body{
 .nav {
     list-style: none;
     display: flex;
-    margin: 0px 0px 0px 16px
-  }
+    align-items: center;
+}
 .dropmenu{
     position: relative;
 }
@@ -118,7 +117,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 30px;
     cursor: pointer;
 }
 .select:hover{
@@ -134,34 +133,29 @@ body{
 }
 .caret-rotate{
     transform: rotate(180deg);
-
 }
 .menu{
     list-style: none;
-    padding: 0.2em 0.5em;
     background: #e6dec7;
     border:1px #361d08 solid;
-    box-shadow:  0 0.5em 1em rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     color: #361d08;
     position: absolute;
-    top: 3em;
+    top: 4em;
     left: 50%;
     width: 100%;
     transform: translateX(-50%);
     opacity: 0;
     display: none;
-    transform: 0.2;
-    z-index: 1;
+    z-index: 3;
 }
 .select-clicked{
     border: 2px #361d08 solid;
-    box-shadow: 0 0 0.8em #361D08;
+    border-radius: 15px;
 }
 .menu li{
     padding: 0.7em 0.5em;
-    margin: 0.3em 0;
-    border-radius: 0.5em;
+    border-radius: 15px;
     cursor: pointer;
 }
 .menu-open{
@@ -174,7 +168,7 @@ body{
     font-family: sans-serif;
 }
 .nav li {
-    padding: 16px 24px;
+    padding: 16px;
     text-decoration:none;
     font-size:20px;
 }
